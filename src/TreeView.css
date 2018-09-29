@@ -1,0 +1,16 @@
+/*- --------- TreeView ------------ */
+.TreeView {
+  position: relative;
+}
+
+.TreeView .collapse-switch { width: 100%; height: 100%; border: none; }
+.TreeView .node.collapsed { background-color: none; }
+.TreeView .node.collapsed .collapse-switch { background: none; }
+
+.TreeView .tree {
+  overflow: hidden;
+}
+
+.dragscroll {
+  cursor: move;
+}
