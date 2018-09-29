@@ -1,0 +1,89 @@
+/* ---------- NORMATIZAÇÃO ------------ */
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit !important
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: whitesmoke
+}
+
+::selection {
+  color: whitesmoke;
+  background-color: black
+}
+
+input, textarea {
+  font-size: 1.3em
+}
+
+input {
+  text-align: center;
+}
+
+textarea {
+  resize: none;
+}
+
+button, input[type="submit"] {
+  cursor: pointer
+}
+
+body {
+  background-color: white;
+}
+
+/*- --------- Personal ------------ */
+.TreeView {
+  height: 100vh;
+  width: 100vw;
+}
+
+.tree {
+  height: 100%;
+  width: 100%;
+}
+
+/* --- Levels --- */
+.node:not(.arrow) {
+  margin: 10px 0;
+}
+
+.root {
+  height: 150px;
+}
+
+._node {
+  height: 90px;
+  padding: 10px;
+  background-color: #e6e7e8;
+}
+
+.leaf {
+  height: 50px
+}
+
+.tree img{
+  height: 100%
+}
+
+.arrow {
+  transition: 1s transform;
+  padding: 2px
+}
+
+.arrow.collapsed {
+  transform: rotate(180deg);
+}
+
+.arrow img {
+  height: 50px;
+}
