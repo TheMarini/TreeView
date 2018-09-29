@@ -1,0 +1,15 @@
+{
+  "name": "TreeView",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "git@github.com:TheMarini/TreeView.git",
+  "author": "Bruno Marini <bruno.marini1@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dragscroll": "^0.0.8",
+    "treantjs": "https://github.com/fperucic/treant-js.git"
+  },
+  "optionalDependencies": {
+    "jquery": "^3.3.1"
+  }
+}
