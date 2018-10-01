@@ -52,7 +52,12 @@ class TreeView {
         children[i] = this.configs.structure.levels.node;
         if (node[i].children.length > 1) {
           children[i].connectors = this.configs.structure.connectors.collapse;
-          children[i].children = [this.configs.structure.levels.collapse];
+          // children[i].children = [this.configs.structure.levels.collapse];
+          children[i].children = [{
+            HTMLclass: 'arrow',
+            image: 'assets/img/arrow.svg',
+            collapsable: true
+          }];
           children[i].children[0].children = this._getChildren(node[i].children);
         } else {
           children[i].children = this._getChildren(node[i].children);
